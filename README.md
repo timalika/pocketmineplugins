@@ -1,8 +1,6 @@
-# Pocketmine plugins
-A collection of Minecraft PMMP plugins branched to the pocketmine versions I'm able to use on www.server.pro
+### pocketmineplugins
 
-Just started this repository, see the https://github.com/genboy/pocketmineplugins/issues
+# Minecraft Pocketmine Plugins Collection
 
-If you have a plugin folder for testing with other versions I welcome you to add your PMMP version branch plugin collection.
-Download Pocketmine: https://jenkins.pmmp.io/view/all/builds
-
+A collection of Minecraft PMMP plugins, tested with the latest version.
+ 
