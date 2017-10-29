@@ -470,32 +470,32 @@ permissions:
                         default: false
                         description: "Bypass paying for special signs"
                     essentials.sign.use:
-                        default: false
+                        default: true
                         description: "Allow to use special signs"
                         children:
                             essentials.sign.use.free:
-                                default: op
+                                default: true
                                 description: "Allow to use Free signs"
                             essentials.sign.use.gamemode:
                                 default: op
                                 description: "Allow to use Gamemode signs"
                             essentials.sign.use.heal:
-                                default: op
+                                default: true
                                 description: "Allow to use Heal signs"
                             essentials.sign.use.kit:
                                 default: op
                                 description: "Allow to use Kit signs"
                             essentials.sign.use.repair:
-                                default: op
+                                default: true
                                 description: "Allow to use Repair signs"
                             essentials.sign.use.time:
                                 default: op
                                 description: "Allow to use Time signs"
                             essentials.sign.use.teleport:
-                                default: op
+                                default: true
                                 description: "Allow to use Teleport signs"
                             essentials.sign.use.warp:
-                                default: op
+                                default: true
                                 description: "Allow to use Warp signs"
                             essentials.sign.use.balance:
                                 default: true
@@ -606,7 +606,7 @@ permissions:
                 default: true
                 description: "Display information about a player"
             essentials.world:
-                default: op
+                default: true
                 description: "Teleport to another world"
             essentials.worth:
                 default: true
