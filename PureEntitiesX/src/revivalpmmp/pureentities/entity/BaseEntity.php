@@ -93,6 +93,7 @@ abstract class BaseEntity extends Creature {
         $this->panicEnabled = PluginConfiguration::getInstance()->getEnablePanic();
         $this->panicTicks = PluginConfiguration::getInstance()->getPanicTicks();
         $this->maxAge = PluginConfiguration::getInstance()->getMaxAge();
+        $this->maxDeadTicks = 23;
         parent::__construct($level, $nbt);
         if ($this->eyeHeight === null) {
             $this->eyeHeight = $this->height / 2 + 0.1;
@@ -285,8 +286,16 @@ abstract class BaseEntity extends Creature {
 
     public function entityBaseTick(int $tickDiff = 1): bool {
         Timings::$timerEntityBaseTick->startTiming();
+        // check if it needs to despawn
 
         $hasUpdate = Entity::entityBaseTick($tickDiff);
+
+        // Checking this first because there's no reason to keep going if we know
+        // we're going to despawn the entity.
+        if ($this->checkDespawn()) {
+            Timings::$timerEntityBaseTick->stopTiming();
+            return false;
+        }
 
         if ($this->isInsideOfSolid()) {
             $hasUpdate = true;
@@ -304,11 +313,6 @@ abstract class BaseEntity extends Creature {
 
         // check panic tick
         $this->panicTick($tickDiff);
-
-        // check if it needs to despawn
-        if ($this->checkDespawn()) {
-            return false;
-        }
 
         Timings::$timerEntityBaseTick->stopTiming();
         return $hasUpdate;

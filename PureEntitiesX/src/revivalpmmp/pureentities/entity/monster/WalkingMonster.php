@@ -163,18 +163,15 @@ abstract class WalkingMonster extends WalkingEntity implements Monster {
     }
 
     public function onUpdate(int $currentTick): bool {
-        if ($this->isClosed() or $this->getLevel() == null) return false;
+        if ($this->getLevel() == null) return false;
         if ($this->server->getDifficulty() < 1) {
+            $this->despawnFromAll();
             $this->close();
             return false;
         }
 
-        if (!$this->isAlive()) {
-            if (++$this->deadTicks >= 23) {
-                $this->close();
-                return false;
-            }
-            return true;
+        if ($this->isClosed() or !$this->isAlive()) {
+            return parent::onUpdate($currentTick);
         }
 
         $tickDiff = $currentTick - $this->lastUpdate;
@@ -213,6 +210,13 @@ abstract class WalkingMonster extends WalkingEntity implements Monster {
         Timings::$timerEntityBaseTick->startTiming();
 
         $hasUpdate = parent::entityBaseTick($tickDiff);
+
+        // BaseEntity::entityBaseTick checks and can trigger despawn.  After calling it, we need to verify
+        // that the entity is still valid for updates before performing any other tasks on it.
+        if($this->isClosed() or !$this->isAlive()) {
+            Timings::$timerEntityBaseTick->stopTiming();
+            return false;
+        }
 
         $this->attackDelay += $tickDiff;
         if ($this instanceof Enderman) {
