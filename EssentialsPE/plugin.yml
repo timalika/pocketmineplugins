@@ -47,7 +47,7 @@ permissions:
                         default: op
                         description: "Return to your previous spot before teleporting"
             essentials.balance:
-                default: false
+                default: true
                 description: "Allow players to see their balance"
                 children:
                     essentials.balance.use:
@@ -57,11 +57,11 @@ permissions:
                         default: op
                         description: "Let players to see other's balance"
             essentials.balancetop:
-                default: false
+                default: op
                 description: "Allow seeing the balance top"
                 children:
                     essentials.balancetop.use:
-                        default: true
+                        default: op
                         description: "See the balance top"
             essentials.bigtree:
                 default: op

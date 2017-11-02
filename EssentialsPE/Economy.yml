@@ -1,14 +1,14 @@
 # Sets the balance of a new player when join.
-default-balance: 0
+default-balance: 50
 
 # The symbol to represent currency
-currency-symbol: '$'
+currency-symbol: ';p'
 
 # Max money, to prevent your server crash because of high values.
-max-money: 10000000000000
+max-money: 100000000
 
 # Allow players to have negative values of money
-min-money: -1000
+min-money: -300
 
 # The default price to sell items using the /sell command.
 # Please only use Item ID's here
