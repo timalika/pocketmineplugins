@@ -6,4 +6,12 @@ A collection of Minecraft Pocketmine PM plugins, tested with the latest version 
 
 Started with a small set of plugins and building up.  
 
-[PMMP DevTools](https://github.com/pmmp/PocketMine-DevTools), [PureEntitiesX](https://github.com/RevivalPMMP/PureEntitiesX/issues), [Worlds](https://github.com/survanetwork/Worlds/issues), [BigBrother](https://github.com/BigBrotherTeam/BigBrother/issues), [Iprotector](https://github.com/DerddyDert/iProtector-v4.0/network), [EssentialsPE](https://github.com/LegendOfMCPE/EssentialsPE), [ClientConsole](https://github.com/dktapps/ClientConsole) 
+- Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
+- Pocketmine Devtools | https://github.com/pmmp/PocketMine-DevTools/issues
+- BigBrother | https://github.com/BigBrotherTeam/BigBrother/issues
+- Iprotector | https://github.com/DerddyDert/iProtector-v4.0/network
+- PureEntitiesX | https://github.com/RevivalPMMP/PureEntitiesX/issues
+- Worlds | https://github.com/survanetwork/Worlds/issues
+- EssentialsPe | https://github.com/LegendOfMCPE/EssentialsPE/issues
+- ClientConsole | https://github.com/dktapps/ClientConsole
+- Treasure Chest - https://github.com/Awzaw/TreasureChest/issues
