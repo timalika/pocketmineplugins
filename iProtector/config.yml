@@ -15,7 +15,7 @@ Default:
 # Settings for unprotected areas in individual worlds:
 Worlds:
 
-  Candytown:
+  Braveland1:
 
     # Keep players from getting hurt?
     God: false
@@ -38,35 +38,22 @@ Worlds:
     Edit: true
 
     # Protect against TNT and Creeper explosions?
-    TNT: false
+    TNT: true
 
     # Keep players from touching blocks and activating things like chests?
     Touch: false
 
-  ValleyFortress:
+  blank:
 
     # Keep players from getting hurt?
-    God: false
+    God: true
 
     # Keep players from editing the world?
-    Edit: false
+    Edit: true
 
     # Protect against TNT and Creeper explosions?
-    TNT: false
+    TNT: true
 
     # Keep players from touching blocks and activating things like chests?
     Touch: false
 
-  Moo:
-
-    # Keep players from getting hurt?
-    God: false
-
-    # Keep players from editing the world?
-    Edit: false
-
-    # Protect against TNT and Creeper explosions?
-    TNT: false
-
-    # Keep players from touching blocks and activating things like chests?
-    Touch: false

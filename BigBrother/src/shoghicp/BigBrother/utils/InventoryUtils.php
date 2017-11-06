@@ -41,13 +41,16 @@ use pocketmine\network\mcpe\protocol\types\ContainerIds;
 use pocketmine\network\mcpe\protocol\types\NetworkInventoryAction;
 use pocketmine\network\mcpe\protocol\types\WindowTypes;
 
+use pocketmine\entity\projectile\Arrow;
 use pocketmine\entity\Item as ItemEntity;
-use pocketmine\math\Vector3;
-use pocketmine\tile\Tile;
-use pocketmine\tile\EnderChest as TileEnderChest;
-use pocketmine\item\Item;
-use pocketmine\inventory\InventoryHolder;
+use pocketmine\event\inventory\InventoryPickupItemEvent;
+use pocketmine\event\inventory\InventoryPickupArrowEvent;
 use pocketmine\inventory\CraftingRecipe;
+use pocketmine\inventory\InventoryHolder;
+use pocketmine\item\Item;
+use pocketmine\math\Vector3;
+use pocketmine\tile\EnderChest as TileEnderChest;
+use pocketmine\tile\Tile;
 
 use shoghicp\BigBrother\BigBrother;
 use shoghicp\BigBrother\DesktopPlayer;
@@ -93,14 +96,14 @@ class InventoryUtils{
 		$this->player = $player;
 
 		$this->playerCraftSlot = array_fill(0, 5, Item::get(Item::AIR, 0, 0));
-		$this->playerCraftTableSlot = array_fill(0, 9, Item::get(Item::AIR, 0, 0));
+		$this->playerCraftTableSlot = array_fill(0, 10, Item::get(Item::AIR, 0, 0));
 		$this->playerArmorSlot = array_fill(0, 5, Item::get(Item::AIR, 0, 0));
 		$this->playerInventorySlot = array_fill(0, 27, Item::get(Item::AIR, 0, 0));
 		$this->playerHotbarSlot = array_fill(0, 9, Item::get(Item::AIR, 0, 0));
 		$this->playerHeldItem = Item::get(Item::AIR, 0, 0);
 
-		$this->shapelessRecipes = $player->getServer()->getCraftingManager()->getShapelessRecipes();
-		$this->shapedRecipes = $player->getServer()->getCraftingManager()->getShapedRecipes();
+		$this->shapelessRecipes = $player->getServer()->getCraftingManager()->getShapelessRecipes();//TODO: custom recipes
+		$this->shapedRecipes = $player->getServer()->getCraftingManager()->getShapedRecipes();//TODO: custom recipes
 	}
 
 	/**
@@ -173,7 +176,7 @@ class InventoryUtils{
 						$retval = &$this->playerInventorySlot[$inventorySlot];
 					}
 				}else{
-					if($windowId === 255){
+					if($windowId === 127){
 						$retval = &$this->playerCraftTableSlot[$inventorySlot];
 					}else{
 						$retval = &$this->windowInfo[$windowId]["items"][$inventorySlot];
@@ -200,7 +203,7 @@ class InventoryUtils{
 		foreach($craftingItem as $slot => $item){
 			if(!$item->isNull()){
 				$pk = new SetSlotPacket();
-				$pk->windowID = count($craftingItem) === 9 ? 255 : 0;
+				$pk->windowID = count($craftingItem) === 9 ? 127 : 0;
 				$pk->item = Item::get(Item::AIR, 0, 0);
 				$pk->slot = $slot;
 				$this->player->putRawPacket($pk);
@@ -721,7 +724,7 @@ class InventoryUtils{
 		}
 
 		$isCraftingPart = false;
-		if($packet->windowID === 0 or $packet->windowID === 255){//Crafting
+		if($packet->windowID === 0 or $packet->windowID === 127){//Crafting
 			$minCraftingSlot = 1;
 			if($packet->windowID === 0){
 				$saveInventoryData = &$this->playerCraftSlot;
@@ -831,7 +834,7 @@ class InventoryUtils{
 				$ref = &$this->getItemAndSlot($packet->windowID, $packet->slot, $windowId, $saveInventorySlot);
 				$oldItem = clone $ref;
 
-				if($packet->windowID !== 255){
+				if($packet->windowID !== 127){
 					$ref = $item;
 				}
 
@@ -966,8 +969,22 @@ class InventoryUtils{
 
 		$entity = $this->player->getLevel()->getEntity($packet->target);
 		if($entity instanceof ItemEntity){
+			$this->player->getServer()->getPluginManager()->callEvent($ev = new InventoryPickupItemEvent($this->player->getInventory(), $entity));
+
+			if($ev->isCancelled()){
+				return null;
+			}
 			$item = $entity->getItem();
 			$itemCount = $item->getCount();
+		}
+
+		if($entity instanceof Arrow){
+			$this->player->getServer()->getPluginManager()->callEvent($ev = new InventoryPickupArrowEvent($this->player->getInventory(), $entity));
+
+			if($ev->isCancelled()){
+				return null;
+			}
+			$item = Item::get(Item::ARROW);
 		}
 
 		if($this->player->getInventory()->canAddItem($item)){
@@ -975,6 +992,8 @@ class InventoryUtils{
 			$pk->eid = $packet->eid;
 			$pk->target = $packet->target;
 			$pk->itemCount = $itemCount;
+
+			$this->player->getInventory()->sendHeldItem($this->player->getViewers());
 
 			return $pk;
 		}
@@ -986,7 +1005,7 @@ class InventoryUtils{
 	 * @param int $windowId
 	 */
 	public function onCraft(int $windowId) : void{
-		if($windowId !== 0 and $windowId !== 255){
+		if($windowId !== 0 and $windowId !== 127){
 			echo "[InventoryUtils][Debug] called onCraft\n";
 			return;
 		}
@@ -998,7 +1017,7 @@ class InventoryUtils{
 		if($windowId === 0){
 			$gridSize = 2;
 			$saveInventoryData = &$this->playerCraftSlot;
-		}elseif($windowId === 255){
+		}elseif($windowId === 127){
 			$gridSize = 3;
 			$saveInventoryData = &$this->playerCraftTableSlot;
 		}
@@ -1016,6 +1035,39 @@ class InventoryUtils{
 				$inputSlotMap[$y][$x] = $gridItem->setCount(1);//blame pmmp
 			}
 		}
+
+
+		/*$xOffset = $gridSize;
+		$yOffset = $gridSize;
+
+		$height = 0;
+		$width = 0;
+
+		foreach($inputSlotMap as $y => $row){
+			foreach($row as $x => $item){
+				if(!$item->isNull()){
+					$xOffset = min($x, $xOffset);
+					$yOffset = min($y, $yOffset);
+
+					$height = max($y + 1 - $yOffset, $height);
+					$width = max($x + 1 - $xOffset, $width);
+				}
+			}
+		}
+
+		if($height === 0 or $width === 0){
+			//TODO
+		}
+
+		$air = Item::get(Item::AIR, 0, 0);
+		$reindexed = array_fill(0, $height, array_fill(0, $width, $air));
+		foreach($reindexed as $y => $row){
+			foreach($row as $x => $item){
+				$reindexed[$y][$x] = $inputSlotMap[$y + $yOffset][$x + $xOffset];
+			}
+		}*/
+
+
 
 		$resultRecipe = null;
 		foreach($this->shapedRecipes as $jsonResult => $jsonSlotData){
@@ -1050,7 +1102,7 @@ class InventoryUtils{
 		$pk->item = $resultItem;
 		$pk->slot = 0;//result slot
 		$this->player->putRawPacket($pk);
-		var_dump(["resultItem" => $resultItem, "slot" => $pk->slot]);
+		var_dump(["resultItem" => $resultItem]);
 	}
 
 	/**

@@ -1,7 +1,16 @@
 {
     "isAFK": false,
     "isGod": false,
-    "homes": [],
+    "homes": {
+        "bed": [
+            104,
+            68,
+            275,
+            "Braveland1",
+            0,
+            0
+        ]
+    },
     "isMuted": false,
     "mutedUntil": null,
     "nick": null,

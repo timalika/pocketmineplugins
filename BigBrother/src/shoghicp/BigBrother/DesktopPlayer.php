@@ -63,6 +63,7 @@ use shoghicp\BigBrother\network\ProtocolInterface;
 use shoghicp\BigBrother\entity\ItemFrameBlockEntity;
 use shoghicp\BigBrother\utils\Binary;
 use shoghicp\BigBrother\utils\InventoryUtils;
+use shoghicp\BigBrother\utils\RecipeUtils;
 
 class DesktopPlayer extends Player{
 
@@ -87,13 +88,21 @@ class DesktopPlayer extends Player{
 	/** @var string[] */
 	private $bigBrother_entitylist = [];
 	/** @var InventoryUtils */
-	private $inventoryutils;
+	private $inventoryUtils;
+	/** @var RecipeUtils */
+	private $recipeUtils;
 	/** @var array */
 	private $bigBrother_clientSetting = [];
 	/** @var array */
 	private $bigBrother_pluginMessageList = [];
 	/** @var array */
 	private $bigBrother_breakPosition = [];
+	/** @var array */
+	private $bigBrother_bossBarData = [
+		"entityRuntimeId" => -1,
+		"uuid" => "",
+		"nameTag" => ""
+	];
 
 	/** @var ProtocolInterface */
 	protected $interface;
@@ -113,14 +122,22 @@ class DesktopPlayer extends Player{
 		parent::__construct($interface, $clientID, $address, $port);
 
 		$this->bigBrother_breakPosition = [new Vector3(0, 0, 0), 0];
-		$this->inventoryutils = new InventoryUtils($this);
+		$this->inventoryUtils = new InventoryUtils($this);
+		$this->recipeUtils = new RecipeUtils($this);
 	}
 
 	/**
 	 * @return InventoryUtils
 	 */
 	public function getInventoryUtils() : InventoryUtils{
-		return $this->inventoryutils;
+		return $this->inventoryUtils;
+	}
+
+	/**
+	 * @return RecipeUtils
+	 */
+	public function getRecipeUtils() : RecipeUtils{
+		return $this->recipeUtils;
 	}
 
 	/**
@@ -224,6 +241,24 @@ class DesktopPlayer extends Player{
 	}
 
 	/**
+	 * @param  string       $bossBardata
+	 * @return string|array
+	 */
+	public function bigBrother_getBossBarData(string $bossBarData = ""){
+		if($bossBarData === ""){
+			return $this->bigBrother_bossBarData;
+		}
+		return $this->bigBrother_bossBarData[$bossBarData];
+	}
+
+	/**
+	 * @param string $bossBardata
+	 */
+	public function bigBrother_setBossBarData(string $bossBarData, $data) : void{
+		$this->bigBrother_bossBarData[$bossBarData] = $data;
+	}
+
+	/**
 	 * @return int status
 	 */
 	public function bigBrother_getStatus() : int{
@@ -319,7 +354,7 @@ class DesktopPlayer extends Player{
 
 		if($grid->getDefaultSize() === 9){//Open Crafting Table
 			$pk = new ContainerOpenPacket();
-			$pk->windowId = 255;//Max WindowId
+			$pk->windowId = 127;//Max WindowId
 			$pk->type = WindowTypes::WORKBENCH;
 			$pk->x = 0;
 			$pk->y = 0;
@@ -461,7 +496,9 @@ class DesktopPlayer extends Player{
 			$pk->protocol = Info::CURRENT_PROTOCOL;
 			$pk->clientUUID = $this->bigBrother_formatedUUID;
 			$pk->clientId = crc32($this->bigbrother_clientId);
+			$pk->xuid = crc32($this->bigBrother_username);
 			$pk->serverAddress = "127.0.0.1:25565";
+			$pk->locale = "en_US";
 			$pk->clientData["SkinGeometryName"] = "";//TODO
 			$pk->clientData["SkinGeometry"] = "";//TODO
 			$pk->clientData["CapeData"] = "";//TODO
@@ -575,7 +612,7 @@ class DesktopPlayer extends Player{
 
 	/**
 	 * @param string $url
-	 * @return string sking image
+	 * @return string skin image
 	 */
 	public function getSkinImage(string $url) : string{
 		if(extension_loaded("gd")){

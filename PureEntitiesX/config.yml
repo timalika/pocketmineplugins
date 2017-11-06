@@ -1,17 +1,17 @@
 # Default Config File for PureEntitiesX
 
 # set where entities can spawn e.g ["world", "flat"], or leave empty to allow entities to spawn in any level
-enabledworlds: []
+enabledworlds: ["Braveland1","world","FamilyTown"]
 
 # set how often the spawn and despawn task will be trigered
 spawn-task:
-  trigger-ticks: 300
+  trigger-ticks: 600
   use-block-light: false
   use-sky-light: false
 
 # after how many ticks an entity gets despawned (if not tamed)
 despawn:
-  after-ticks: 72000
+  after-ticks: 6000
 
 # configuration of panic mode for some entities
 panic:
@@ -29,7 +29,7 @@ creeper:
   block-breaking-explosion: false
 
 breeding:
-  emit-love-particles-constantly: true
+  emit-love-particles-constantly: false
 
 # control logfile logging
 # possible: debug, warn, info
@@ -97,8 +97,8 @@ probability:
   sheep: 20
 
   blaze: 10
-  cavespider: 20
-  creeper: 20
+  cavespider: 10
+  creeper: 10
   enderman: 5
   ghast: 10
   irongolem: 1

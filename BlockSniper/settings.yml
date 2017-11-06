@@ -1,0 +1,14 @@
+---
+Configuration-Version: 2.5.0
+Auto-Configuration-Update: true
+Message-Language: ""
+Brush-Item: 396
+Maximum-Size: 30
+Asynchronous-Operation-Size: 15
+Maximum-SyncRevert-Stores: 15
+Reset-Decrement-Brush: true
+Save-Brush-Properties: true
+Drop-Leafblower-Plants: true
+Open-Gui-Automatically: true
+MyPlot-Support: false
+...
