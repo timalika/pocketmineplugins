@@ -1,10 +1,19 @@
-# Pocketmine plugins
-A collection of Minecraft PMMP plugins branched to the pocketmine versions I'm able to use on www.server.pro
+### pocketmineplugins
 
-Started with a small set of plugins and building up, 
-see the https://github.com/genboy/pocketmineplugins/issues
+# Minecraft Pocketmine Plugins Collection
 
-[PureEntitiesX](https://github.com/RevivalPMMP/PureEntitiesX/issues), [Worlds](https://github.com/survanetwork/Worlds/issues), [BigBrother](https://github.com/BigBrotherTeam/BigBrother/issues), [Iprotector](https://github.com/DerddyDert/iProtector-v4.0/network), [EssentialsPE](https://github.com/LegendOfMCPE/EssentialsPE), [ClientConsole](https://github.com/dktapps/ClientConsole)
+A collection of Minecraft Pocketmine PM plugins, tested with the latest version available on my server.pro hosting account.
+
+Started with a small set of plugins and building up.  
+
+- Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
+- Pocketmine Devtools | https://github.com/pmmp/PocketMine-DevTools/issues
+- BigBrother | https://github.com/BigBrotherTeam/BigBrother/issues
+- Iprotector | https://github.com/DerddyDert/iProtector-v4.0/network
+- PureEntitiesX | https://github.com/RevivalPMMP/PureEntitiesX/issues
+- Worlds | https://github.com/survanetwork/Worlds/issues
+- EssentialsPe | https://github.com/LegendOfMCPE/EssentialsPE/issues
+- ClientConsole | https://github.com/dktapps/ClientConsole
+- Treasure Chest | https://github.com/Awzaw/TreasureChest/issues
+- Blocksniper | https://github.com/BlockHorizons/BlockSniper
  
-If you have a plugin folder for testing with other versions I welcome you to add your PMMP version branch plugin collection for testing & sharing ideas.
-Download Pocketmine: https://jenkins.pmmp.io/view/all/builds
