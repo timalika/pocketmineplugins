@@ -7,7 +7,6 @@ A collection of Minecraft Pocketmine PM plugins, tested with the latest version 
 Started with a small set of plugins and building up.  
 
 - Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
-
 - Pocketmine Devtools | https://github.com/pmmp/PocketMine-DevTools/issues
 - BigBrother | https://github.com/BigBrotherTeam/BigBrother/issues
 - Iprotector | https://github.com/DerddyDert/iProtector-v4.0/network
@@ -21,4 +20,4 @@ Started with a small set of plugins and building up.
 - Colormatic | https://github.com/TheDeibo/Colormatic
 - FloatingTexter | https://github.com/genboy/FloatingTexter 
   A FloatingTexter fork with a small config variable added for y-positioning of the floating text 
-  original by https://github.com/fycarman/FloatingTexter/issues
+  original by https://github.com/fycarman/FloatingTexter/issues 
