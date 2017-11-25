@@ -1,8 +1,0 @@
----
-# Amount of time in seconds to refresh the FloatingTexts
-time: 5
-# Set the Float height with an amount of blocks above the players feet
-# Default and minimal is 1: current player eye level
-ypos: 3
-#End of the useless config file
-...
