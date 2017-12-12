@@ -23,5 +23,7 @@ Started with a small set of plugins and building up.
 
 - Specter | https://github.com/Falkirks/Specter
 
-*A FloatingTexter fork with a small config variable added for y-positioning of the floating text 
-original https://github.com/fycarman/FloatingTexter/issues 
+See issues for [more info](https://github.com/genboy/pocketmineplugins/issues/8)
+
+
+* [Forked](https://github.com/genboy/FloatingTexter) to add small config variable for y-positioning
