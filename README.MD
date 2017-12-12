@@ -18,6 +18,10 @@ Started with a small set of plugins and building up.
 - Blocksniper | https://github.com/BlockHorizons/BlockSniper
 - ClearLag | https://github.com/LegendOfMCPE/ClearLagg/issues
 - Colormatic | https://github.com/TheDeibo/Colormatic
-- FloatingTexter | https://github.com/genboy/FloatingTexter 
-  A FloatingTexter fork with a small config variable added for y-positioning of the floating text 
-  original by https://github.com/fycarman/FloatingTexter/issues 
+- FloatingTexter* | https://github.com/genboy/FloatingTexter 
+- LiveXYZ | https://github.com/dktapps/LiveXYZ
+
+- Specter | https://github.com/Falkirks/Specter
+
+*A FloatingTexter fork with a small config variable added for y-positioning of the floating text 
+original https://github.com/fycarman/FloatingTexter/issues 
