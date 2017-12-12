@@ -18,7 +18,7 @@ Started with a small set of plugins and building up.
 - Blocksniper | https://github.com/BlockHorizons/BlockSniper
 - ClearLag | https://github.com/LegendOfMCPE/ClearLagg/issues
 - Colormatic | https://github.com/TheDeibo/Colormatic
-- FloatingTexter* | https://github.com/genboy/FloatingTexter 
+- *FloatingTexter | https://github.com/genboy/FloatingTexter 
 - LiveXYZ | https://github.com/dktapps/LiveXYZ
 
 - Specter | https://github.com/Falkirks/Specter
@@ -26,4 +26,4 @@ Started with a small set of plugins and building up.
 See issues for [more info](https://github.com/genboy/pocketmineplugins/issues/8)
 
 
-* [Forked](https://github.com/genboy/FloatingTexter) to add small config variable for y-positioning
+*FloatingTexter [Fork](https://github.com/genboy/FloatingTexter) to add small config variable for y-positioning
