@@ -16,6 +16,8 @@ Started with a small set of plugins and building up.
 - Treasure Chest | https://github.com/Awzaw/TreasureChest/issues
 - *FloatingTexter | https://github.com/genboy/FloatingTexter 
 
+In progress:
+
 - Worlds | https://github.com/survanetwork/Worlds/issues
 - ClientConsole | https://github.com/dktapps/ClientConsole
 - ClearLag | https://github.com/LegendOfMCPE/ClearLagg/issues
