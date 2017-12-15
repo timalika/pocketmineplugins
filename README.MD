@@ -16,16 +16,12 @@ Started with a small set of plugins and building up.
 - EssentialsPe | https://github.com/LegendOfMCPE/EssentialsPE/issues
 - Treasure Chest | https://github.com/Awzaw/TreasureChest/issues
 - *FloatingTexter | https://github.com/genboy/FloatingTexter 
-
-In progress: 
-
-
 - ClientConsole | https://github.com/dktapps/ClientConsole
 - ClearLag | https://github.com/LegendOfMCPE/ClearLagg/issues
 - Colormatic | https://github.com/TheDeibo/Colormatic
 - LiveXYZ | https://github.com/dktapps/LiveXYZ
 - Specter | https://github.com/Falkirks/Specter 
-
+ 
 See issues for [more info](https://github.com/genboy/pocketmineplugins/issues/8)
 
 *FloatingTexter [Fork](https://github.com/genboy/FloatingTexter) to add small config variable for y-positioning
