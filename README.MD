@@ -21,9 +21,8 @@ Started with a small set of plugins and building up.
 - Colormatic | https://github.com/TheDeibo/Colormatic
 - LiveXYZ | https://github.com/dktapps/LiveXYZ
 - Specter | https://github.com/Falkirks/Specter 
-
 - Realtime | https://github.com/Point808/PMMP_Plugins/tree/master/RealTime/
  
 See issues for [more info](https://github.com/genboy/pocketmineplugins/issues/8)
-
+ 
 *FloatingTexter [Fork](https://github.com/genboy/FloatingTexter) to add small config variable for y-positioning
