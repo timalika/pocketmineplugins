@@ -22,7 +22,7 @@ Started with a small set of plugins and building up.
 - LiveXYZ | https://github.com/dktapps/LiveXYZ
 - Specter | https://github.com/Falkirks/Specter 
 
-- Realtime | hhttps://github.com/Point808/PMMP_Plugins/tree/master/RealTime/
+- Realtime | https://github.com/Point808/PMMP_Plugins/tree/master/RealTime/
  
 See issues for [more info](https://github.com/genboy/pocketmineplugins/issues/8)
 
