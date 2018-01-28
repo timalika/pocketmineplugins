@@ -9,7 +9,7 @@ Started with a small set of plugins and building up.
 - Pocketmine Devtools | https://github.com/pmmp/PocketMine-DevTools/issues
 - BigBrother | https://github.com/BigBrotherTeam/BigBrother/issues
 - Blocksniper | https://github.com/BlockHorizons/BlockSniper
-- Iprotector | https://github.com/DerddyDert/iProtector-v4.0/network / https://github.com/genboy/iProtector
+- Festival | https://github.com/genboy/Festival 
 - Worlds | https://github.com/survanetwork/Worlds/issues 
 - PureEntitiesX | https://github.com/RevivalPMMP/PureEntitiesX/issues
 - EssentialsPe | https://github.com/LegendOfMCPE/EssentialsPE/issues
@@ -23,7 +23,7 @@ Started with a small set of plugins and building up.
 - Realtime | https://github.com/Point808/PMMP_Plugins/tree/master/RealTime/
 - PurePerms | https://github.com/PurePlugins/PurePerms/issues
 
-See issues for [more info](https://github.com/genboy/pocketmineplugins/issues/8) 
+See issues for [more info](https://github.com/genboy/pocketmineplugins/issues/8)  
 
-* iProtector [Fork](https://github.com/genboy/iProtector) to add messages and events
+* Festival replacing  Iprotector | https://github.com/DerddyDert/iProtector-v4.0/network
 * FloatingTexter [Fork](https://github.com/genboy/FloatingTexter) to add small config variable for y-positioning
