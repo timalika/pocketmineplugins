@@ -2,6 +2,8 @@
 
 # Minecraft Pocketmine Plugins Collection
 
+3.0.0-ALPHA9,3.0.0-ALPHA10
+
 A collection of Pocketmine plugins, tested with the latest stable Minecraft Pocketmine version available (according to my server.pro hosting account).
 Started with a small set of plugins and building up. 
 
