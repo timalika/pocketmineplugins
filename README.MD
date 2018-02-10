@@ -7,7 +7,7 @@ Started with a small set of plugins and building up.
 
 - [x] Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
 - [x] Pocketmine Devtools | https://github.com/pmmp/PocketMine-DevTools/issues
-- [ ] BigBrother | https://github.com/BigBrotherTeam/BigBrother/issues
+- [x] BigBrother | https://github.com/BigBrotherTeam/BigBrother/issues
 - [x] Blocksniper | https://github.com/BlockHorizons/BlockSniper
 - [x] Festival | https://github.com/genboy/Festival 
 - [x] Worlds | https://github.com/survanetwork/Worlds/issues 
