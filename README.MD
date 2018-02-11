@@ -14,7 +14,7 @@ Started with a small set of plugins and building up.
 - [x] PureEntitiesX | https://github.com/RevivalPMMP/PureEntitiesX/issues
 - [x] EssentialsPe | https://github.com/LegendOfMCPE/EssentialsPE/issues
 - [x] Treasure Chest | https://github.com/Awzaw/TreasureChest/issues
-- [ ] FloatingTexter* | https://github.com/genboy/FloatingTexter
+- []  b Texter* | https://github.com/fuyutsuki/Texter
 - [ ] b ClientConsole | https://github.com/dktapps/ClientConsole
 - [ ] b ClearLag | https://github.com/LegendOfMCPE/ClearLagg/issues
 - [x] Colormatic | https://github.com/TheDeibo/Colormatic
@@ -24,6 +24,5 @@ Started with a small set of plugins and building up.
 - [ ] b PurePerms | https://github.com/PurePlugins/PurePerms/issues
  
 b = version bumped, working without changes
-* FloatingTexter [Fork](https://github.com/genboy/FloatingTexter) to add small config variable for y-positioning
-
+* Texter replacing FloatingTexter 
 See issues for [more info](https://github.com/genboy/pocketmineplugins/issues/8)  
