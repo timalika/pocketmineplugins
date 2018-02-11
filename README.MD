@@ -23,6 +23,6 @@ Started with a small set of plugins and building up.
 - [ ] b Realtime | https://github.com/Point808/PMMP_Plugins/tree/master/RealTime/
 - [ ] b PurePerms | https://github.com/PurePlugins/PurePerms/issues
  
-b = version bumped, working without changes
-* Texter replacing FloatingTexter 
+b = to be version bumped, working without changes
+* Texter replacing FloatingTexter  
 See issues for [more info](https://github.com/genboy/pocketmineplugins/issues/8)  
