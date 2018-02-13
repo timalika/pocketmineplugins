@@ -8,21 +8,24 @@ Started with a small set of plugins and building up.
 - [x] Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
 - [x] Pocketmine Devtools | https://github.com/pmmp/PocketMine-DevTools/issues
 - [x] BigBrother | https://github.com/BigBrotherTeam/BigBrother/issues
-- [x] Blocksniper | https://github.com/BlockHorizons/BlockSniper
 - [x] Festival | https://github.com/genboy/Festival 
 - [x] Worlds | https://github.com/survanetwork/Worlds/issues 
 - [x] PureEntitiesX | https://github.com/RevivalPMMP/PureEntitiesX/issues
-- [x] EssentialsPe | https://github.com/LegendOfMCPE/EssentialsPE/issues
-- [x] Treasure Chest | https://github.com/Awzaw/TreasureChest/issues
-- []  b Texter* | https://github.com/fuyutsuki/Texter
-- [ ] b ClientConsole | https://github.com/dktapps/ClientConsole
-- [ ] b ClearLag | https://github.com/LegendOfMCPE/ClearLagg/issues
 - [x] Colormatic | https://github.com/TheDeibo/Colormatic
-- [ ] b LiveXYZ | https://github.com/dktapps/LiveXYZ
-- [ ] b Specter | https://github.com/Falkirks/Specter 
-- [ ] b Realtime | https://github.com/Point808/PMMP_Plugins/tree/master/RealTime/
-- [ ] b PurePerms | https://github.com/PurePlugins/PurePerms/issues
- 
-b = to be version bumped, working without changes
-* Texter replacing FloatingTexter  
-See issues for [more info](https://github.com/genboy/pocketmineplugins/issues/8)  
+- [x] LiveXYZ | https://github.com/dktapps/LiveXYZ
+- [x] Texter* | https://github.com/fuyutsuki/Texter
+- [ ] EssentialsPe | https://github.com/LegendOfMCPE/EssentialsPE/issues
+- [ ] Treasure Chest | https://github.com/Awzaw/TreasureChest/issues
+- [ ] Blocksniper | https://github.com/BlockHorizons/BlockSniper
+- [ ] ClientConsole | https://github.com/dktapps/ClientConsole
+- [ ] ClearLag | https://github.com/LegendOfMCPE/ClearLagg/issues
+- [ ] Specter | https://github.com/Falkirks/Specter 
+- [ ] Realtime | https://github.com/Point808/PMMP_Plugins/tree/master/RealTime/
+- [ ] PurePerms | https://github.com/PurePlugins/PurePerms/issues 
+
+
+  [x] = updated by owner/devteam for latest version
+
+* Texter Plugin replacing FloatingTexter Plugin Fork   
+
+See issues for [more info](https://github.com/genboy/pocketmineplugins/issues/8) 
