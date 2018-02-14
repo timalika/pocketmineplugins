@@ -29,4 +29,4 @@ Started with a small set of plugins and building up.
 
         *Texter Plugin replacing FloatingTexter Plugin Fork
 
-See issues for [more info](https://github.com/genboy/pocketmineplugins/issues/8) 
+See [issues](https://github.com/genboy/pocketmineplugins/issues/8) for more info
