@@ -14,8 +14,8 @@ Started with a small set of plugins and building up.
 - [x] Colormatic | https://github.com/TheDeibo/Colormatic
 - [x] LiveXYZ | https://github.com/dktapps/LiveXYZ
 - [x] Texter* | https://github.com/fuyutsuki/Texter
+- [x] Treasure Chest | https://github.com/Awzaw/TreasureChest/issues
 - [ ] EssentialsPe | https://github.com/LegendOfMCPE/EssentialsPE/issues
-- [ ] Treasure Chest | https://github.com/Awzaw/TreasureChest/issues
 - [ ] Blocksniper | https://github.com/BlockHorizons/BlockSniper
 - [ ] ClientConsole | https://github.com/dktapps/ClientConsole
 - [ ] ClearLag | https://github.com/LegendOfMCPE/ClearLagg/issues
@@ -24,7 +24,8 @@ Started with a small set of plugins and building up.
 - [ ] PurePerms | https://github.com/PurePlugins/PurePerms/issues 
 
 
-  [x] = updated by owner/devteam for latest version
+- [x] = updated by owner/consistent developer for 3.0.0-ALPHA11 (1.2.10)
+- [ ] = working with only version bump in plugin.yml
 
 * Texter Plugin replacing FloatingTexter Plugin Fork   
 
