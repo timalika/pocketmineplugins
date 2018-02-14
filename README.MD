@@ -25,8 +25,8 @@ Started with a small set of plugins and building up.
 
 
 - [x] = updated by owner/consistent developer for 3.0.0-ALPHA11 (1.2.10)
-- [ ] = working with only version bump in plugin.yml
+- [ ] = working with only version bump in plugin.yml or temporary plugin branch
 
-        *Texter Plugin replacing FloatingTexter Plugin Fork   
+        *Texter Plugin replacing FloatingTexter Plugin Fork
 
 See issues for [more info](https://github.com/genboy/pocketmineplugins/issues/8) 
