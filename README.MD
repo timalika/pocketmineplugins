@@ -16,6 +16,7 @@ Started with a small set of plugins and building up.
 - [x] Texter* | https://github.com/fuyutsuki/Texter
 - [x] Treasure Chest | https://github.com/Awzaw/TreasureChest/issues
 - [x] PurePerms | https://github.com/PurePlugins/PurePerms/issues
+- [x] Parkour | https://github.com/Awzaw/Parkour
 - [ ] EssentialsPe | https://github.com/LegendOfMCPE/EssentialsPE/issues
 - [ ] Blocksniper | https://github.com/BlockHorizons/BlockSniper
 - [ ] ClientConsole | https://github.com/dktapps/ClientConsole
