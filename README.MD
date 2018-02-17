@@ -20,7 +20,7 @@ Started with a small set of plugins and building up.
 - [x] Cameraman | https://github.com/poggit-orphanage/Cameraman
 - [x] Itemcase | https://github.com/poggit-orphanage/ItemCase
 - [x] ProfileUI | https://github.com/Infernus101/ProfileUI
-- [ ] EssentialsPe | https://github.com/LegendOfMCPE/EssentialsPE/qa issues
+- [x] EssentialsPe** | https://github.com/ZPlayzMCPE/EssentialsPE-1
 - [ ] Blocksniper | https://github.com/BlockHorizons/BlockSniper
 - [ ] ClientConsole | https://github.com/dktapps/ClientConsole
 - [ ] ClearLag | https://github.com/LegendOfMCPE/ClearLagg/issues
@@ -32,5 +32,6 @@ Started with a small set of plugins and building up.
 - [ ] = working with only version bump in plugin.yml or temporary plugin branch
 
         *Texter Plugin replacing FloatingTexter Plugin Fork
+		**Essentials devteam & repo switch ( prev. https://github.com/LegendOfMCPE/EssentialsPE/ )
 
 See [issues](https://github.com/genboy/pocketmineplugins/issues/8) for more info
