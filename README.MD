@@ -5,7 +5,8 @@
 A collection of Pocketmine plugins, tested with the latest stable Minecraft Pocketmine version available or newer if possible.
 Started with a small set of plugins and building up. 
 
-- [x] Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
+Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
+
 - [x] Pocketmine Devtools | https://github.com/pmmp/PocketMine-DevTools/issues
 - [x] BigBrother | https://github.com/BigBrotherTeam/BigBrother/issues
 - [x] Festival | https://github.com/genboy/Festival 
@@ -19,12 +20,13 @@ Started with a small set of plugins and building up.
 - [x] Parkour | https://github.com/Awzaw/Parkour
 - [x] Cameraman | https://github.com/poggit-orphanage/Cameraman
 - [x] ProfileUI | https://github.com/Infernus101/ProfileUI
+- [x] GrabBag | https://github.com/poggit-orphanage/GrabBag/issues
 - [x] EssentialsPe** | https://github.com/ZPlayzMCPE/EssentialsPE-1
 - [ ] Blocksniper | https://github.com/BlockHorizons/BlockSniper
 - [ ] ClientConsole | https://github.com/dktapps/ClientConsole
 - [ ] ClearLag | https://github.com/LegendOfMCPE/ClearLagg/issues
 - [ ] Specter | https://github.com/Falkirks/Specter
-- [ ] Realtime | https://github.com/Point808/PMMP_Plugins/tree/master/RealTime/
+- [ ] Realtime | https://github.com/Point808/PMMP_Plugins/tree/master/RealTime/ 
 
 
 - [x] = updated by owner/consistent developer for 3.0.0-ALPHA11 (1.2.10)
