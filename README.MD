@@ -18,7 +18,6 @@ Started with a small set of plugins and building up.
 - [x] PurePerms | https://github.com/PurePlugins/PurePerms/issues
 - [x] Parkour | https://github.com/Awzaw/Parkour
 - [x] Cameraman | https://github.com/poggit-orphanage/Cameraman
-- [x] Itemcase | https://github.com/poggit-orphanage/ItemCase
 - [x] ProfileUI | https://github.com/Infernus101/ProfileUI
 - [x] EssentialsPe** | https://github.com/ZPlayzMCPE/EssentialsPE-1
 - [ ] Blocksniper | https://github.com/BlockHorizons/BlockSniper
