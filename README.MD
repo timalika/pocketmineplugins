@@ -21,6 +21,7 @@ Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
 - [x] Cameraman | https://github.com/poggit-orphanage/Cameraman
 - [x] ProfileUI | https://github.com/Infernus101/ProfileUI
 - [x] GrabBag | https://github.com/poggit-orphanage/GrabBag/issues
+- [x] MOTDshuffle | https://github.com/TheDeibo/MOTDShuffle/issues
 - [x] EssentialsPe** | https://github.com/ZPlayzMCPE/EssentialsPE-1
 - [ ] Blocksniper | https://github.com/BlockHorizons/BlockSniper
 - [ ] ClientConsole | https://github.com/dktapps/ClientConsole
