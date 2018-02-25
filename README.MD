@@ -14,7 +14,7 @@ Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
 - [x] PureEntitiesX | https://github.com/RevivalPMMP/PureEntitiesX/issues
 - [x] Colormatic | https://github.com/TheDeibo/Colormatic
 - [x] LiveXYZ | https://github.com/dktapps/LiveXYZ
-- [x] Texter* | https://github.com/fuyutsuki/Texter
+- [x] Texter | https://github.com/fuyutsuki/Texter .1
 - [x] Treasure Chest | https://github.com/Awzaw/TreasureChest/issues
 - [x] PurePerms | https://github.com/PurePlugins/PurePerms/issues
 - [x] Parkour | https://github.com/Awzaw/Parkour
@@ -22,18 +22,20 @@ Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
 - [x] ProfileUI | https://github.com/Infernus101/ProfileUI
 - [x] GrabBag | https://github.com/poggit-orphanage/GrabBag/issues
 - [x] MOTDshuffle | https://github.com/TheDeibo/MOTDShuffle/issues
-- [x] EssentialsPe** | https://github.com/ZPlayzMCPE/EssentialsPE-1
-- [ ] Blocksniper | https://github.com/BlockHorizons/BlockSniper
+- [x] EssentialsPe | https://github.com/ZPlayzMCPE/EssentialsPE-1 .2
+- [x] Specter | https://github.com/Falkirks/Specter
+- [x] AnyVersion | https://github.com/zyware/AnyVersion/issues
+- [x] Blocksniper | https://github.com/YTiStrafeNubzHD/BlockSniper/tree/master/ .3
 - [ ] ClientConsole | https://github.com/dktapps/ClientConsole
 - [ ] ClearLag | https://github.com/LegendOfMCPE/ClearLagg/issues
-- [ ] Specter | https://github.com/Falkirks/Specter
+
 - [ ] Realtime | https://github.com/Point808/PMMP_Plugins/tree/master/RealTime/ 
 
 
 - [x] = updated by owner/consistent developer for 3.0.0-ALPHA11 (1.2.10)
 - [ ] = working with only version bump in plugin.yml or temporary plugin branch
-
-        *Texter Plugin replacing FloatingTexter Plugin Fork
-		**Essentials devteam & repo switch ( prev. https://github.com/LegendOfMCPE/EssentialsPE/ )
+        .1 Texter Plugin replacing FloatingTexter Plugin Fork
+	.2 Essentials devteam & repo switch ( prev. https://github.com/LegendOfMCPE/EssentialsPE/ )
+	.3 Blocksniper devteam & repo switch ( prev. https://github.com/BlockHorizons/Blocksniper )
 
 See [issues](https://github.com/genboy/pocketmineplugins/issues/8) for more info
