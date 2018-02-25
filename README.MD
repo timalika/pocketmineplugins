@@ -26,10 +26,10 @@ Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
 - [x] Specter | https://github.com/Falkirks/Specter
 - [x] AnyVersion | https://github.com/zyware/AnyVersion/issues
 - [x] Blocksniper | https://github.com/YTiStrafeNubzHD/BlockSniper/tree/master/ .3
+- [x] Realtime | https://github.com/Point808/PMMP_Plugins/tree/master/RealTime/ 
 - [ ] ClientConsole | https://github.com/dktapps/ClientConsole
 - [ ] ClearLag | https://github.com/LegendOfMCPE/ClearLagg/issues
 
-- [ ] Realtime | https://github.com/Point808/PMMP_Plugins/tree/master/RealTime/ 
 
 
 - [x] = updated by owner/consistent developer for 3.0.0-ALPHA11 (1.2.10)
