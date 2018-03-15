@@ -28,7 +28,5 @@ Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
 - Blocksniper | https://github.com/YTiStrafeNubzHD/BlockSniper/tree/master/
 - Realtime | https://github.com/Point808/PMMP_Plugins/tree/master/RealTime/ 
 - ClientConsole | https://github.com/dktapps/ClientConsole
-
-- ClearLag *version bump only* | https://github.com/LegendOfMCPE/ClearLagg
      
 See [issues](https://github.com/genboy/pocketmineplugins/issues/8) for bit more info
