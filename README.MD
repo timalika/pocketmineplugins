@@ -26,6 +26,7 @@ Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
 - Realtime | https://github.com/Point808/PMMP_Plugins/tree/master/RealTime/ 
 - ReplaySystem | https://github.com/McpeBooster/ReplaySystem-McpeBooster/issues
 - Specter | https://github.com/Falkirks/Specter
+- SignEdit | https://github.com/OtorisanVardo/SignEdit
 - Texter | https://github.com/fuyutsuki/Texter
 - TreasureChest | https://github.com/Awzaw/TreasureChest/issues
 - Worlds | https://github.com/survanetwork/Worlds/issues
