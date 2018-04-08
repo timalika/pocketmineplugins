@@ -7,7 +7,7 @@ Started with a small set of plugins and building up.
 
 Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
 
-- BigBrother | https://github.com/BigBrotherTeam/BigBrother/issues
+- X BigBrother | https://github.com/BigBrotherTeam/BigBrother/issues
 - Blocksniper | https://github.com/YTiStrafeNubzHD/BlockSniper/tree/master/
 - Cameraman | https://github.com/poggit-orphanage/Cameraman
 - ClientConsole | https://github.com/dktapps/ClientConsole
@@ -21,10 +21,9 @@ Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
 - MOTDshuffle | https://github.com/TheDeibo/MOTDShuffle/issues
 - Texter | https://github.com/fuyutsuki/Texter
 - Treasure Chest | https://github.com/Awzaw/TreasureChest
-- PurePerms | https://github.com/PurePlugins/PurePerms
 - Parkour | https://github.com/Awzaw/Parkour
 - ProfileUI | https://github.com/Infernus101/ProfileUI
-- PureEntitiesX | https://github.com/RevivalPMMP/PureEntitiesX/issues
+- X PureEntitiesX | https://github.com/RevivalPMMP/PureEntitiesX/issues
 - PurePerms | https://github.com/PurePlugins/PurePerms/issues
 - Realtime | https://github.com/Point808/PMMP_Plugins/tree/master/RealTime/ 
 - ReplaySystem | https://github.com/McpeBooster/ReplaySystem-McpeBooster/issues
