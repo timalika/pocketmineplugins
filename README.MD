@@ -24,7 +24,7 @@ Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
 - Parkour | https://github.com/Awzaw/Parkour
 - ProfileUI | https://github.com/Infernus101/ProfileUI
 - X PureEntitiesX | https://github.com/RevivalPMMP/PureEntitiesX/issues
-- PurePerms | https://github.com/PurePlugins/PurePerms/issues
+- PurePerms | https://github.com/PurePlugins/PurePerms/issues | [usage vid](https://youtu.be/v19TSITGxF4)
 - Realtime | https://github.com/Point808/PMMP_Plugins/tree/master/RealTime/ 
 - ReplaySystem | https://github.com/McpeBooster/ReplaySystem-McpeBooster/issues
 - Specter | https://github.com/Falkirks/Specter
