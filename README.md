@@ -22,10 +22,9 @@ Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
 - [ ] Parkour | https://github.com/Awzaw/Parkour
 - [ ] ProfileUI | https://github.com/Infernus101/ProfileUI
 - [x] PureEntitiesX | https://github.com/RevivalPMMP/PureEntitiesX/issues
-- [ ] PurePerms | https://github.com/PurePlugins/PurePerms/issues | [usage vid](https://youtu.be/v19TSITGxF4)
-- [ ] Realtime | https://github.com/Point808/PMMP_Plugins/tree/master/RealTime/ 
+- [ ] PurePerms | https://github.com/poggit-orphanage/PurePerms | [usage vid](https://youtu.be/v19TSITGxF4)
 - [ ] ReplaySystem | https://github.com/McpeBooster/ReplaySystem-McpeBooster/issues
-- [ ] Specter | https://github.com/Falkirks/Specter
+- [x] Specter | https://github.com/Falkirks/Specter
 - [x] SignEdit | https://github.com/OtorisanVardo/SignEdit
 - [x] Texter | https://github.com/fuyutsuki/Texter
 - [ ] TreasureChest | https://github.com/Awzaw/TreasureChest/issues
@@ -36,4 +35,8 @@ Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
 - [x] = original code package for latest stable ALPHA 12 (either .phar or .zip)
 - [ ] = plugin is not fully updated, at least version bumped untill ALPHA 12 source update is released
 
-See [issues](https://github.com/genboy/pocketmineplugins/issues) for bit more info
+--- 
+
+! Removed: Realtime plugin by [Point808](https://github.com/Point808/PMMP_Plugins/tree/master/RealTime/) - why? nice idea and it works but you see the sun/moon/shadow jumping back wich makes it look very hacky
+
+See [issues](https://github.com/genboy/pocketmineplugins/issues) for bit more info 
