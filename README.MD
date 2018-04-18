@@ -7,31 +7,30 @@ Started with a small set of plugins to preserve a collection of usefull and reli
 
 Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
 
-- [ ] BigBrother | https://github.com/BigBrotherTeam/BigBrother/issues
-- [ ] Blocksniper | https://github.com/YTiStrafeNubzHD/BlockSniper/tree/master/
+- [x] BigBrother | https://github.com/BigBrotherTeam/BigBrother/issues
+- [x] Blocksniper | https://github.com/YTiStrafeNubzHD/BlockSniper/tree/master/
 - [ ] Cameraman | https://github.com/poggit-orphanage/Cameraman
-- [ ] ClientConsole | https://github.com/dktapps/ClientConsole
+- [x] ClientConsole | https://github.com/dktapps/ClientConsole
 - [ ] Colormatic | https://github.com/TheDeibo/Colormatic
-- [ ] Devtools | https://github.com/pmmp/PocketMine-DevTools
+- [x] Devtools | https://github.com/pmmp/PocketMine-DevTools
 - [ ] EssentialsPe | https://github.com/ZPlayzMCPE/EssentialsPE-1
 - [ ] Festival | https://github.com/genboy/Festival 
 - [ ] GrabBag | https://github.com/poggit-orphanage/GrabBag/issues
-- [ ] LiveXYZ | https://github.com/dktapps/LiveXYZ
+- [x] LiveXYZ | https://github.com/dktapps/LiveXYZ
 - [ ] MapImageEngine | https://github.com/FaigerSYS/MapImageEngine - http://mie-converter.ml/
-- [ ] MOTDshuffle | https://github.com/TheDeibo/MOTDShuffle/issues
-- [ ] Texter | https://github.com/fuyutsuki/Texter
-- [ ] Treasure Chest | https://github.com/Awzaw/TreasureChest
+- [x] MOTDshuffle | https://github.com/TheDeibo/MOTDShuffle/issues
 - [ ] Parkour | https://github.com/Awzaw/Parkour
 - [ ] ProfileUI | https://github.com/Infernus101/ProfileUI
-- [ ] PureEntitiesX | https://github.com/RevivalPMMP/PureEntitiesX/issues
+- [x] PureEntitiesX | https://github.com/RevivalPMMP/PureEntitiesX/issues
 - [ ] PurePerms | https://github.com/PurePlugins/PurePerms/issues | [usage vid](https://youtu.be/v19TSITGxF4)
 - [ ] Realtime | https://github.com/Point808/PMMP_Plugins/tree/master/RealTime/ 
 - [ ] ReplaySystem | https://github.com/McpeBooster/ReplaySystem-McpeBooster/issues
 - [ ] Specter | https://github.com/Falkirks/Specter
-- [ ] SignEdit | https://github.com/OtorisanVardo/SignEdit
-- [ ] Texter | https://github.com/fuyutsuki/Texter
+- [x] SignEdit | https://github.com/OtorisanVardo/SignEdit
+- [x] Texter | https://github.com/fuyutsuki/Texter
 - [ ] TreasureChest | https://github.com/Awzaw/TreasureChest/issues
-- [ ] Worlds | https://github.com/survanetwork/Worlds/issues
+- [x] Worlds | https://github.com/survanetwork/Worlds/issues
+
 
 
 - [x] = original code package for latest stable ALPHA 12 (either .phar or .zip)
