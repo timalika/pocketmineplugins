@@ -7,14 +7,14 @@ Started with a small set of plugins to preserve a collection of usefull and reli
 
 Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
 
-- [x] BigBrother | https://github.com/BigBrotherTeam/BigBrother/issues
-- [x] Blocksniper | https://github.com/YTiStrafeNubzHD/BlockSniper/tree/master/
+- [ ] BigBrother | https://github.com/BigBrotherTeam/BigBrother/issues
+- [ ] Blocksniper | https://github.com/YTiStrafeNubzHD/BlockSniper/tree/master/
 - [ ] Cameraman | https://github.com/poggit-orphanage/Cameraman
 - [x] ClientConsole | https://github.com/dktapps/ClientConsole
 - [ ] Colormatic | https://github.com/TheDeibo/Colormatic
 - [x] Devtools | https://github.com/pmmp/PocketMine-DevTools
-- [ ] EssentialsPe | https://github.com/ZPlayzMCPE/EssentialsPE-1
-- [ ] Festival | https://github.com/genboy/Festival 
+- [x] EssentialsPe | https://github.com/ZPlayzMCPE/EssentialsPE-1
+- [x] Festival | https://github.com/genboy/Festival 
 - [ ] GrabBag | https://github.com/poggit-orphanage/GrabBag/issues
 - [x] LiveXYZ | https://github.com/dktapps/LiveXYZ
 - [ ] MapImageEngine | https://github.com/FaigerSYS/MapImageEngine - http://mie-converter.ml/
@@ -29,11 +29,11 @@ Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
 - [x] SignEdit | https://github.com/OtorisanVardo/SignEdit
 - [x] Texter | https://github.com/fuyutsuki/Texter
 - [ ] TreasureChest | https://github.com/Awzaw/TreasureChest/issues
-- [x] Worlds | https://github.com/survanetwork/Worlds/issues
+- [ ] Worlds | https://github.com/survanetwork/Worlds/issues
 
-
+---
 
 - [x] = original code package for latest stable ALPHA 12 (either .phar or .zip)
-- [ ] = plugin is not updated, version bumped or dev-version untill original update is released
+- [ ] = plugin is not fully updated, at least version bumped untill ALPHA 12 source update is released
 
 See [issues](https://github.com/genboy/pocketmineplugins/issues) for bit more info
