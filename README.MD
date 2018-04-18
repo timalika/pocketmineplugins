@@ -3,7 +3,7 @@
 # Minecraft Pocketmine Plugins Collection
 
 A collection of Pocketmine plugins, tested with the latest stable Minecraft Pocketmine version available or newer if possible.
-Started with a small set of plugins and building up. 
+Started with a small set of plugins to preserve a collection of usefull and reliable plugins to build on. 
 
 Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
 
@@ -33,4 +33,8 @@ Pocketmine PM | https://github.com/pmmp/PocketMine-MP/issues
 - [ ] TreasureChest | https://github.com/Awzaw/TreasureChest/issues
 - [ ] Worlds | https://github.com/survanetwork/Worlds/issues
 
-See [issues](https://github.com/genboy/pocketmineplugins/issues/8) for bit more info
+
+- [x] = original code package for latest stable ALPHA 12 (either .phar or .zip)
+- [ ] = plugin is not updated, version bumped or dev-version untill original update is released
+
+See [issues](https://github.com/genboy/pocketmineplugins/issues) for bit more info
